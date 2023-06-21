@@ -1,0 +1,65 @@
+# Homework 21.06.2023
+# Sviluppo di una dashboard di gestione dei dati del personale dei corsi di una Academy Tech
+# 3 Use Cases
+# Disegnare il Domanin Model (diagramma delle classi) dell'applicazione
+
+Use Cases:
+    A. Modify the e-mail address of a student;
+    B. Create a new class for an upcoming course on Web Design (25 students);
+    C. Extract a report reagrding the final grdes of a specific class.
+
+Use Cases A:
+        1. Go to the main dashboard.
+        2. Search the student by name and class using the search bar.
+        3. The dashboard returns a list of matching entries.
+        4. Select the student by cicking on the name from the given list and open his/her profile.
+        5. The dashboard returns the profile of the selected student.
+        6. Click on "Edit details" from the student's profile.
+        7. The dashboard returns a menu with options and actions to perform.
+        8. Click on "Add/Change details".
+        9. Change the e-mail address with the new one and hit "OK".
+        10. The dashboard returns a confirmation box with the options "Keep" and "Discard".
+        11. Hit "Keep" and then "Save".
+        12. Reload the dashboard.
+        13. Exit the student's profile and go back to the main dashboard.
+
+Use Cases B: 
+        1. Go to the main dashboard.
+        2. Search the menu/tab "Classes".
+        3. The dashboard returns a list of all the classes.
+        4. Hit the "Create New" button to add a new entry.
+        5. The dashboard opens a new form/window with empty boxes to be completed. 
+        6. You insert the name of the class, the number of students, and a short description.
+        7. Click on "Create" and then on "Save".
+        8. Open the newly created class and go to "Settings".
+        9. Click on "Modify" and select the tab "Give Permissions" so you can add the responsible professor for the class. 
+        10. The dashboard returns a list of all the professors and their subject. 
+        11. Select the professor and hit "Assign Amin Rights" and then "OK".
+        12. Hit "Save" and Reload the page.
+        13. Go back to the main dashboard.
+
+Use Cases C:
+        1. Go to the main dashboard.
+        2. Search the menu/tab "Classes".
+        3. The dashboard returns a list of all the classes.
+        4. Select the class you need.
+        5. The dashboard returns a list of all the students from that class.
+        6. Go to the tab "Data" and select the tab "Extract".
+        7. The dashboard opens a menu for selecting report options.
+        8. Select the "Report" option and include/select the following fields: "Full Name", "Subject", "Final Grade", and "Date of Final Grade".
+        9. Hit "Generate".
+        10. The dashboard will return a menu with the preferred format of the extracted report.
+        11. Select the preferred format and hit "OK".
+        12. Save the file. 
+
+Possible Classes:
+    - Dashboard
+    - Employees
+    - Classes
+    - Students
+    - Professors
+    - Subjects
+    - Grades
+
+
+
